@@ -6,3 +6,4 @@ pandasql
 fastapi
 langchain
 uvicorn
+dotenv
