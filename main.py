@@ -31,7 +31,7 @@ app = FastAPI(
 # Add CORS middleware to allow frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://vit-bot-frontend.vercel.app/"],  # Configure this for production
+    allow_origins=["https://vit-bot-frontend.vercel.app"],  # Configure this for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
