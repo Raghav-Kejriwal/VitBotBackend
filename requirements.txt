@@ -1,0 +1,8 @@
+langgraph 
+langchain_openai 
+faiss-cpu 
+rapidfuzz 
+pandasql
+fastapi
+langchain
+uvicorn
